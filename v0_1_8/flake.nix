@@ -11,7 +11,6 @@
   inputs.src-nimBMP-v0_1_8.ref   = "refs/tags/v0.1.8";
   inputs.src-nimBMP-v0_1_8.owner = "jangko";
   inputs.src-nimBMP-v0_1_8.repo  = "nimBMP";
-  inputs.src-nimBMP-v0_1_8.dir   = "";
   inputs.src-nimBMP-v0_1_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
